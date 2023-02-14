@@ -13,7 +13,7 @@
 	   
 	  function gmoResponseHandler(response){
 	   if (response.resultCode == '000') {
-	   console.log('无法生成TOKEN成功');
+	   console.log('生成TOKEN成功');
       } else {
         console.log('无法生成TOKEN');
         // Failed to create token for the card
